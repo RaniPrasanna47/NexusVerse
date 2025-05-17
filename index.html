@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NexusVerse</title>
+  <link rel="stylesheet" href="./css file/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    /* Navigation Styling */
+    nav {
+      width: 100%;
+      background-color: rgb(17, 16, 16);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      padding: 24px 30px;
+      display: flex;
+      justify-content: flex-end;
+      box-shadow: 0 2px 4px rgba(244, 238, 238, 0.889);
+      animation: slideIn 0.8s ease-in-out;
+    }
+
+    nav a {
+      color: #fefbfb;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 20px;
+      border-bottom: 2px solid transparent;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ff33e7;
+      border-bottom: 2px solid #ff5733;
+      transform: scale(1.05);
+    }
+
+   
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body id="home" class="add">
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="https://www.radionitroz.in" target="_blank">About Us</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <!-- Content (offset top for fixed nav) -->
+  <div class="container1" style="margin-top: 70px;">
+    <h1 id="heading">Welcome</h1>
+  </div>
+
+  <div class="container">
+    <h1 class="heading">NexusVerse</h1>
+  
+     <!-- card main container -->
+      <div class="cards">
+        <!-- card1 have two content -->
+        <div class="card1">
+          <div class="col1"></div>
+          <!-- In col2 one heading one peragrap and one button-->
+          <div class="col2">
+            <h1>Quiz1</h1>
+            <p>
+              About the quiz1.
+            </p>
+            <a href="./loginAndInstruction.html">Play Game</a>
+          </div>
+        </div>
+        <!-- some thing as card1 -->
+        <div class="card2">
+          <div class="col1"></div>
+          <!-- some thing as card 1 -->
+          <div class="col2">
+            <h1>Quiz2</h1>
+            <p>
+             About quiz2.
+            </p>
+            <a href="./LAIpage1.html">Play Game</a>
+          </div>
+        </div>
+        
+        <div class="card3">
+          <div class="col1"></div>
+          
+          <div class="col2">
+            <h1>Quiz3</h1>
+            <p>
+              About Quiz3.
+            </p>
+            <a href="./LAIpage2.html">Play Game</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <footer id="contact">
+    <p>&copy; 2025 NexusVerse. All rights reserved.</p>
+    <p>Made With ❤ By WEBD-TEAM</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/radionitroz.nitdgp?igsh=MWl6cmZycTFwOHd6eg==" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.facebook.com/share/1ADUELXzKA/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="https://youtube.com/@radionitroz?si=8RTVUM-q-q8R9MrH" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+      <a href="https://www.linkedin.com/company/radio-nitroz-nitdgp/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+  </footer>
+  <script src="./javscript file/app.js"></script>
+
+</body>
+</html>
